@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(90deg, #0f184f, #0f1c69);
+    background-image: url(images/intro-without-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-row{
+    height: 550px;
+}
+.intro-logo {
+    width: 650px;
+    position: absolute;
+    left: 20%;
+    top: 90%;
+}
+
+
+.active-logo{
+    animation: front-rotation 2s infinite;
+}
+@keyframes front-rotation{
+    from {
+      transform: rotateY(0deg);
+      
+    }
+    to {
+      transform: rotateY(360deg);
+      transform: translate(-25%,-25%)
+    }
+  }
