@@ -4,6 +4,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Gilroy';
+    overflow: hidden;
 }
 
 .img-row {
@@ -11,9 +12,9 @@ body {
 }
 
 .intro-logo {
-    width: 275px;
+    width: 300px;
     position: absolute;
-    left: 40%;
+    left: 36%;
     top: 30%;
 }
 
@@ -75,7 +76,7 @@ body {
 }
 
 #second-a:hover {
-    color: #eb3300ab;
+    color: #f36841;
     cursor: pointer !important;
 }
 
@@ -92,6 +93,7 @@ body {
     color: #fff;
     font-weight: 700;
     font-size: 16px;
+    margin-left:12px;
 }
 
 #cheker {
