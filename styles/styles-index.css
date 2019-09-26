@@ -4,13 +4,12 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-.img-row {
-    height: 350px;
+.img-row{
+    height: 550px;
 }
 .intro-logo {
-    width: 275px;
+    width: 650px;
     position: absolute;
-    left: 40%;
-    top: 30%;
+    left: 20%;
+    top: 70%;
 }
