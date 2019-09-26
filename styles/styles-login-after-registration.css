@@ -15,7 +15,7 @@ body {
     width: 300px;
     position: absolute;
     left: 36%;
-    top:40%;
+    top: 40%;
 }
 
 
@@ -30,20 +30,26 @@ body {
     font-weight: 700;
     margin-left: 55px;
     border: none;
-
+    position: relative;
 }
+
 
 .button-clear:hover {
     box-shadow: 0px 5px 10px rgb(204, 61, 18);
 }
 
+.fa-arrow-right {
+    position: absolute;
+    right: 5%;
+    bottom: 36%;
+    font-size: 18px;
+}
 
 .form-cancel {
     width: 570px;
     box-shadow: 0px 5px 21px rgba(0, 0, 0, 0.1);
     background: linear-gradient(90deg, #0f1851, #0f1c67);
     padding: 30px 0px 40px 0px;
-    ;
     margin: 0 auto;
     border-radius: 25px;
 
@@ -93,7 +99,7 @@ body {
     color: #fff;
     font-weight: 700;
     font-size: 16px;
-    margin-left:12px;
+    margin-left: 12px;
 }
 
 #cheker {
@@ -123,7 +129,8 @@ body {
     z-index: 0;
     border-bottom: 20px solid rgb(255, 255, 255);
 }
-.after-txt{
+
+.after-txt {
     width: 475px;
     text-align: center;
     margin: 0 auto;
@@ -132,6 +139,7 @@ body {
     font-weight: 600;
     margin-bottom: 50px;
 }
+
 /*+++++++++++++++++++++++++++++++++++++++++ FORM-end +++++++++++++++++++++++++++++++++++++++++*/
 
 
@@ -147,6 +155,7 @@ body {
 .mar-top-30 {
     margin-top: 30px;
 }
+
 .txt-center {
     text-align: center;
 }
