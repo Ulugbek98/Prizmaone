@@ -1,10 +1,9 @@
-@import './styles/Gilroy-ExtraBold.otf';
 body {
     background: linear-gradient(90deg, #0f184f, #0f1c69);
     background-image: url(images/intro-without-logo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Gilroy'!important;
+    font-family: 'Gilroy';
 }
 
 .img-row {

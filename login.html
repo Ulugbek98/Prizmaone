@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Prizma.One</title>
-    <link rel="stylesheet" href="./styles-login.css">
+    <link rel="stylesheet" href="styles/styles-login.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -16,7 +16,7 @@
         <div class="row">
             <div class="col-md-12 img-row">
                 <img class="intro-logo" src="/images/logo.png" alt="">
-           
+
             </div>
         </div>
     </div>
@@ -30,32 +30,35 @@
     <div class="container">
         <form class="form-cancel">
             <div class="form-group">
-                <a href="#"><label for="exampleInputEmail1">Alsafar ID</label></a>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="  Email ID or Mobile">
+                <a href="#"><label for="exampleInputEmail1">Войти</label></a>
+                <a id="second-a" href="#"><label for="exampleInputEmail1">Регистрация</label></a>
+                <div class="white-span">
+
+                </div>
+                <input type="email" class="form-control block" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="  Ваш Логин">
             </div>
             <div class="form-group">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder=" Password">
-                <a href="#"><label for="exampleInputPasswrd1">Forgot Password?</label></a>
+
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder=" Пароль">
             </div>
-            <div class="container mar-top-30">
+            <div class="row">
+                <div class="col-md-12" id="cheker">
+                    <input type="radio" id="cheked" value="remember">
+                    <label for="exampleInputPasswrd1" id="check">Запомнить Меня</label>
+                </div>
+            </div>
+            <div class="container mar-top-10">
                 <div class="row">
-                    
-                    <div class="col-md-12"><button type="submit" class="button-clear">LOGIN</button>
+                    <div class="col-md-12"><button type="submit" class="button-clear">ВХОД</button>
                     </div>
-                    
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12 txt-center mar-top-30">
-                                <label>You Don't Have An Account ???
-                                    <span>
-                                        <a href="register.html">
-                                            Sing up now
-                                        </a>
-                                    </span>
-                                </label>
+                                <span>
+                                    Забыли Пароль? 
+                                </span>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -77,7 +80,7 @@
             function Logoanimation() {
                 logo.addClass("active-logo");
             }
-
+           
         });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
