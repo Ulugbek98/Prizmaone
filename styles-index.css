@@ -10,21 +10,21 @@ body {
 .intro-logo {
     width: 650px;
     position: absolute;
-    left: 20%;
-    top: 90%;
+    left:15%;
+    top: 70%;
 }
 
-
+/* 
 .active-logo{
-    animation: front-rotation 2s infinite;
+    animation: topping 1s ease-in-out;
 }
-@keyframes front-rotation{
+@keyframes topping{
     from {
-      transform: rotateY(0deg);
+        transform: translate(0%,-300%);
       
     }
     to {
-      transform: rotateY(360deg);
-      transform: translate(-25%,-25%)
+      
+      transform: translate(0%,-200%);
     }
-  }
+  } */

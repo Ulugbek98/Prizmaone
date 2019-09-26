@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prizma.One</title>
+    <link rel="stylesheet" href="./styles-login.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 img-row">
+                <img class="intro-logo" src="/images/logo.png" alt="">
+           
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="container">
+        <form class="form-cancel">
+            <div class="form-group">
+                <a href="#"><label for="exampleInputEmail1">Alsafar ID</label></a>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="  Email ID or Mobile">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder=" Password">
+                <a href="#"><label for="exampleInputPasswrd1">Forgot Password?</label></a>
+            </div>
+            <div class="container mar-top-30">
+                <div class="row">
+                    
+                    <div class="col-md-12"><button type="submit" class="button-clear">LOGIN</button>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 txt-center mar-top-30">
+                                <label>You Don't Have An Account ???
+                                    <span>
+                                        <a href="register.html">
+                                            Sing up now
+                                        </a>
+                                    </span>
+                                </label>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script>
+        $(document).ready(function () {
+            var logo = $(".intro-logo");
+            var timerid = setTimeout(Logoanimation, 3000);
+
+            function Logoanimation() {
+                logo.addClass("active-logo");
+            }
+
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+
+</html>
