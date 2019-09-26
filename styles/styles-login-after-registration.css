@@ -101,9 +101,6 @@ body {
 }
 
 
-input[type='radio']:checked:after {
-    background: #f27230;
-}
 .txt-center>a {
     text-align: center;
     color: #fff !important;
