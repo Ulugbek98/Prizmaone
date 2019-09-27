@@ -12,7 +12,7 @@ body {
 }
 
 .intro-logo {
-    height: 70px;
+    height: 70px!important;
     position: absolute;
     left: 36%;
     top: 30%;
