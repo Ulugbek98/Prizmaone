@@ -1,0 +1,20 @@
+body {
+    background: linear-gradient(90deg, #0f184f, #0f1c69);
+    background-image: url(../images/intro-with-effects.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Gilroy';
+    overflow: hidden;
+}
+
+.img-row {
+    height: 350px;
+}
+
+.intro-logo {
+    height: 70px;
+    position: absolute;
+    left: 36%;
+    top: 30%;
+}
+
