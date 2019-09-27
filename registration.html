@@ -8,7 +8,7 @@
     <title>Prizma.One</title>
     <link rel="stylesheet" href="styles/styles-registration.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -32,8 +32,8 @@
     <div class="container">
         <form class="form-cancel">
             <div class="form-group">
-                <a id="first-a" href="#">Войти</a>
-                <a  href="register.html">Регистрация</a>
+                <a id="first-a" href="/login.html">Войти</a>
+                <a href="register.html">Регистрация</a>
                 <div class="white-span">
                 </div>
                 <input type="email" class="form-control block" id="exampleInputEmail1" aria-describedby="emailHelp"
@@ -49,20 +49,31 @@
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder=" Пароль">
             </div>
             <div class="form-group">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder=" Повторите Пароль">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder=" Повторите пароль">
+            </div>
+            <div class="form-group">
+                <label style="color: #fff; font-weight:700;margin-left:70px;">Пригласил:</label>
+                <input type="password" class="form-control" disabled id="exampleInputPassword1"
+                    placeholder=" 123456789">
+            </div>
+            <div class="row">
+                <div class="col-md-12" id="cheker">
+                    <input type="radio" id="cheked" checked value="remember">
+                    <span id="check">Я ознакомился и согласен с условиями <a href="#" class="txt-orange">публичной
+                            оферты</a> </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" id="cheker">
+                    <input type="radio" id="cheked" checked value="remember">
+                    <span id="check">Я ознакомился и согласен с условиями <br>
+                        <a href="#" class="txt-orange">политикой конфиденциальности</a> </span>
+                </div>
             </div>
             <div class="container mar-top-20">
                 <div class="row">
-                    <div class="col-md-12"><button type="submit" class="button-clear">ВХОД <i class="fas fa-arrow-right"></i></i></button>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 txt-center mar-top-30">
-                                <a>
-                                    Забыли Пароль?
-                                </a>
-                            </div>
-                        </div>
+                    <div class="col-md-12"><button type="submit" class="button-clear">Зарегестрироваться <i
+                                class="fas fa-arrow-right"></i></i></button>
                     </div>
                 </div>
             </div>

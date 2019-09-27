@@ -4,7 +4,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Gilroy';
-    overflow: hidden;
+
 }
 
 .img-row {
@@ -31,6 +31,8 @@ body {
     margin-left: 55px;
     border: none;
     position: relative;
+    text-transform: uppercase;
+    margin-bottom: 20px
 }
 
 .fa-arrow-right {
@@ -97,9 +99,9 @@ body {
 
 #check {
     color: #fff;
-    font-weight: 700;
-    font-size: 16px;
-    margin-left: 12px;
+    font-weight: 600;
+    font-size: 14px!important;
+    margin-left: 5px;
 }
 
 #cheker {
@@ -129,7 +131,10 @@ body {
     z-index: 0;
     border-bottom: 20px solid rgb(255, 255, 255);
 }
-
+.txt-orange{
+    color:#db3e11;
+    text-decoration: none;
+}
 /*+++++++++++++++++++++++++++++++++++++++++ FORM-end +++++++++++++++++++++++++++++++++++++++++*/
 
 
