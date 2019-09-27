@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(90deg, #0f184f, #0f1c69);
+    background-image: url(../images/intro-without-logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Gilroy';
+    overflow: hidden;
+}
+
+.img-row {
+    height: 350px;
+}
+
+.intro-logo {
+    width: 300px;
+    position: absolute;
+    left: 36%;
+    top: 30%;
+}
+
+
+.after-txt  {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 36 px!important;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+
+.mar-top-10 {
+    margin-top: 10px;
+}
+
+.mar-top-20 {
+    margin-top: 20px;
+}
+
+.mar-top-30 {
+    margin-top: 30px;
+}
+
+.txt-center {
+    text-align: center;
+}
