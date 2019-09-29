@@ -2,7 +2,7 @@ var width = 450,
   height = 450,
   radius = Math.min(width, height) / 2,
   innerRadius = 0.1 * radius;
-  
+
 
 var pie = d3.layout.pie()
   .sort(null)
@@ -10,12 +10,6 @@ var pie = d3.layout.pie()
     return d.width;
   });
 
-/* var tip = d3.tip()
-  .attr('class', 'd3-tip')
-  .offset([0, 0])
-  .html(function (d) {
-    return d.data.label;
-  }); */
 
 var arc = d3.svg.arc()
   .innerRadius(innerRadius)
@@ -31,10 +25,9 @@ var svg = d3.select("body").append("svg")
   .attr("width", width)
   .attr("height", height)
   .append("g")
-  .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")") 
+  .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")")
 
 
-/* svg.call(tip); */
 
 d3.csv('data/aster_data.csv', function (error, data) {
 
@@ -47,7 +40,8 @@ d3.csv('data/aster_data.csv', function (error, data) {
     d.width = +d.weight;
 
   });
- 
+
+  /* little-circle */
 
   var path = svg.selectAll(".solidArc")
     .data(pie(data))
@@ -57,25 +51,28 @@ d3.csv('data/aster_data.csv', function (error, data) {
     })
     .attr("class", "solidArc")
     .attr("stroke", "gray")
+
     .attr("d", arc)
 
-
+  /* big-circle */
   var outerPath = svg.selectAll(".outlineArc")
     .data(pie(data))
     .enter().append("path")
     .attr("fill", "none")
-    .attr("stroke", "gray")
+    .attr("stroke", "#fff")
+    .style('stroke-width', '2px')
+    .style('fill', '2px')
     .attr("class", "outlineArc")
     .attr("d", outlineArc);
 
 
   // calculate the weighted mean score
-  var score =
+/*   var score =
     data.reduce(function (a, b) {
       console.log('a:' + a + ', b.score: ' + b.score + ', b.weight: ' + b.weight);
       return a + (b.score * b.weight);
     }, 0) /
     data.reduce(function (a, b) {
       return a + b.weight;
-    }, 0);
+    }, 0); */
 });

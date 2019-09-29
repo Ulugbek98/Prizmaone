@@ -4,7 +4,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Gilroy';
-
+  color: #fff;
+  overflow: hidden;
 }
 
 /* ++++++++++++++++++++++++++++  NAVBAR START +++++++++++++++++++++++++++++++++++++++ */
@@ -93,6 +94,7 @@ svg {
   fill: none;
   stroke: rgb(214, 0, 0);
   shape-rendering: crispEdges;
+  stroke-width: 50px;
 }
 
 .bar {
@@ -163,6 +165,7 @@ svg {
   left: 755px;
   top: 355px;
   z-index: 1;
+  width: 500px;
 }
 
 .tips-right span {
@@ -218,19 +221,25 @@ svg {
 }
 
 #personal {
-  top:210px;
+  top: 210px;
   left: 110px;
   display: inline-block;
   text-align: center;
 }
 
 .noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
 }
 
@@ -238,3 +247,57 @@ svg {
 /* code */
 
 /* ++++++++++++++++++++++++++++++++++++  CHART End +++++++++++++++++++++++++++++++++++++ */
+
+/*+++++++++++++++++++++++++++  body start  ++++++++++++ */
+
+.right-text{
+color: #fff;
+width: 450px;
+left:100px;
+
+}
+.right-text > h1{
+  font-size:40px;
+  font-weight: 700;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 30px;
+}
+.mar-top-60{
+  margin-top: 60px;
+}
+.mar-top-150{
+  margin-top: 100px;
+}
+.textarea{
+  background: transparent;
+  color: aliceblue;
+  font-weight: 600;
+  width: 350px;
+  font-size: 16px;
+  height: 280px;
+}
+
+.button-clear {
+  background: linear-gradient(90deg, #da3312, #f57d41);
+  height: 65px;
+  width: 430px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  position: relative;
+}
+
+.fa-arrow-right {
+  position: absolute;
+  right: 5%;
+  bottom: 36%;
+  font-size: 18px;
+}
+
+.button-clear:hover {
+  box-shadow: 0px 3px 10px rgb(204, 61, 18);
+}
+
+/*+++++++++++++++++++++++++++  body end  ++++++++++++ */
