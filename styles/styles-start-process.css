@@ -6,6 +6,7 @@ body {
     font-family: 'Gilroy';
 
 }
+
 /* ++++++++++++++++++++++++++++  NAVBAR START +++++++++++++++++++++++++++++++++++++++ */
 
 .intro-logo {
@@ -48,7 +49,7 @@ body {
     left: 175px;
     top: 10px;
     z-index: 0;
-    border-left:18px solid #273271;
+    border-left: 18px solid #273271;
     display: block;
 }
 
@@ -70,11 +71,12 @@ body {
     top: 10px;
     left: 5px;
 }
+
 /* ++++++++++++++++++++++++++++  NAVBAR END +++++++++++++++++++++++++++++++++++++++ */
 
 
 
-.after-txt  {
+.after-txt {
     width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -89,7 +91,7 @@ h1 {
     text-align: center;
     margin: 0 auto;
     color: #fff;
-    font-size: 36 px!important;
+    font-size: 36 px !important;
     font-weight: 600;
     margin-bottom: 50px;
 }
@@ -97,14 +99,26 @@ h1 {
 
 .button-clear {
     background: linear-gradient(90deg, #da3312, #f57d41);
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    color: #ffffff;
+}
+
+.button-clear a {
     height: 65px;
     width: 430px;
-    border-radius: 8px;
     color: #ffffff;
     font-size: 16px;
     font-weight: 700;
-    border: none;
+    display: inline-block;
+    top: 20px;
     position: relative;
+}
+
+.button-clear a:hover {
+    text-decoration: none;
+    color: rgb(177, 177, 177);
 }
 
 .fa-arrow-right {
