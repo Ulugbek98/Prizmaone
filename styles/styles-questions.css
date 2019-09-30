@@ -1,0 +1,167 @@
+body {
+    background: linear-gradient(90deg, #0f184f, #0f1c69);
+    background-image: url(../images/intro-with-effects.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Gilroy';
+
+}
+
+/* ++++++++++++++++++++++++++++  NAVBAR START +++++++++++++++++++++++++++++++++++++++ */
+
+.intro-logo {
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    margin: 20px;
+    left: -170px;
+    top: 30px;
+}
+
+.navbar1 {
+    position: relative;
+}
+
+.user-name {
+    width: 175px;
+    height: 40px;
+    background: #273271;
+    border-radius: 10px;
+    position: absolute;
+    right: -110px;
+    bottom: -105px;
+    text-align: center;
+}
+
+.user-name>span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    top: -13px;
+}
+
+.white-span {
+    width: 10px;
+    background: #fff;
+    border: 10px solid #02114f;
+    position: relative;
+    left: 175px;
+    top: 10px;
+    z-index: 0;
+    border-left: 18px solid #273271;
+    display: block;
+}
+
+.user-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 4px solid white;
+    position: absolute;
+    right: -200px;
+    bottom: -110px;
+    overflow: hidden;
+}
+
+.fa-user-tie {
+    color: #fff;
+    font-size: 35px;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+/* ++++++++++++++++++++++++++++  NAVBAR END +++++++++++++++++++++++++++++++++++++++ */
+.carousel-inner {
+    height: 400px;
+}
+
+.carousel-item.active {
+    height: 400px;
+    width: 100%;
+}
+
+.mar-top-30 {
+    margin-top: 30px;
+}
+
+.mar-top-100 {
+    margin-top: 200px;
+}
+
+.mar-top-50 {
+    margin-top: 50px;
+}
+
+.mar-bot-30 {
+    margin-bottom: 30px;
+}
+
+.num-question {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    left: -30px;
+    position: relative;
+    background: linear-gradient(120deg, rgb(7, 110, 7), rgb(62, 204, 62));
+    text-align: center;
+    line-height: 45px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 0px darkgreen;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    /* Hides the slider so that custom slider can be made */
+    width: 100%;
+    /* Specific width is required for Firefox. */
+    background: #202a68;
+    /* Otherwise white in Chrome */
+    height: 8px;
+    border-radius: 5px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    /*     -webkit-appearance: none; */
+
+}
+
+input[type=range]:focus {
+    outline: none;
+    /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    cursor: pointer;
+
+    /* Hides the slider so custom styles can be added */
+    /*     background: transparent; 
+    border-color: transparent; */
+    /*     color: transparent; */
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 777px;
+    position: relative;
+    top: 345px;
+}
+.dashes {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    font-size: 18px;
+    position: relative;
+    color: #fff;
+    width: 780px;
+}
+.values {
+    justify-content: space-between;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    width: 788px;
+}
