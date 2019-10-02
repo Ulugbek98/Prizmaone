@@ -4,7 +4,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="/styles/styles-process-info.css">
+    <link rel="stylesheet" type="text/css" href="/styles/styles-user-data.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -31,7 +31,7 @@
             </div>
         </div>
     </div>
-
+    <h1 class="title1"> Ваше колесо жизненного баланса</h1>
     <!-- chart -->
     <div class="scores">
         <span>- 9</span>
@@ -59,31 +59,39 @@
     </div>
     <!-- chart -->
 
-    <div class="container mar-top-60">
-        <div class="row">
-            <div class="col-md-6">
-
+    <!-- body -->
+    <div class="container">
+        <div class="row text-path">
+            <div class="col-md-4">
+                <div id="good_sectors">
+                    <h5>Наиболее развитые
+                        сектора:</h5>
+                </div>
             </div>
-            <div class="col-md-6 right-text">
-                <h1>Что такое колесо <br>
-                    баланса?</h1>
-                <p class="textarea">
-                    На сайте Вы можете размещать фотографии как на текстовых страницах, так и создавать фотогалереи.
-                    Наша система управления позволяет автоматически уменьшать фотографии, и все же мы рекомендуем при
-                    работе с изображениями в графических редакторах пользоваться функцией «Сохранить для Web». Она
-                    позволяет значительно сжимать размеры изображений. Благодаря этому быстрее загружается сайт и меньше
-                    расходуется трафик, что актуально для пользователей, которые не имеют доступа к безлимитному
-                    Интернету.
-                </p>
-
-                <button type="submit" class="button-clear mar-top-150"><a href="/questions.html">ПРОДОЛЖИТЬ</a><i class="fas fa-arrow-right"></i></button>
+            <div class="col-md-4">
+                <div id="choose_sector">
+                    <h2>Нажмите на сектор <br>
+                        который <br>
+                        вы хотите улучшить</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div id="bad_sectors">
+                    Lorem ipsum dolor sit amet.
+                </div>
             </div>
         </div>
     </div>
+
+
+
+
+
+
     <script src="/lib/d3/d3.min.js" type="text/javascript"></script>
     <script src="/lib/d3-tip.js" type="text/javascript"></script>
 
-    <script src="/scripts/drawforemptychart.js"></script>
+    <script src="/scripts/draw.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
