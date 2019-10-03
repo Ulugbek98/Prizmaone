@@ -30,7 +30,7 @@ var svg = d3.select("body").append("svg")
 
 
 
-d3.csv('./data/prizma-data.csv', function (error, data) {
+d3.csv('data/prizma-data.csv', function (error, data) {
 
   data.forEach(function (d) {
     d.id = d.id;
