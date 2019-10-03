@@ -291,7 +291,7 @@ svg {
 }
 
 .courses {
-    height: 815px;
+
     width: 1170px;
     background: linear-gradient(120deg, #000e5e, #3f4983);
     color: #fff;
@@ -304,13 +304,14 @@ svg {
 .course-name {
     font-size: 30px;
     font-weight: 700;
-    margin: 50px 0 30px 0;
+    margin: 40px 0 20px 0;
 }
 
 .course-info {
     width: 800px;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 22px;
+    font-size: 16px;
 }
 
 .photo-container {
@@ -337,6 +338,10 @@ svg {
     line-height: 45px
 }
 
+.btn-course:hover {
+    box-shadow: 0px 0px 15px 5px #038303;
+}
+
 .btn-course img {
     height: 25px;
     width: 25px;
@@ -344,11 +349,120 @@ svg {
     margin-right: 10px;
 }
 
+.course-preview {
+    margin-top: 50px;
+}
 
+.text-preview {
+    line-height: 25px;
+    margin: 30px 60px 50px 30px;
+    width: 480px;
+}
 
-
+.video-preview {
+    text-align: right;
+}
 
 
 .txt-orange {
     color: #ec6227;
+}
+
+.course-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 930px;
+}
+
+.button-clear {
+    background: linear-gradient(90deg, #da3312, #f57d41);
+    height: 60px;
+    width: 370px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 55px;
+    margin-top: 60px;
+    border: none;
+}
+
+.button-more {
+    background: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 55px;
+    margin-top: 60px;
+    border: none;
+    position: relative;
+    display: block !important;
+}
+
+.button-ease {
+    width: 270px;
+    height: 60px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    position: relative;
+    left: 250px;
+}
+
+.fa-chevron-up {
+    margin: 5px 5px 0px 5px;
+    /*     animation: arrow-rotation 1s infinite ease-in-out; */
+}
+
+
+@keyframes arrow-rotation {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(180deg)
+    }
+}
+
+
+
+
+.mar-top-30 {
+    margin-top: 30px;
+}
+
+.top-clicker1 {
+    display: none;
+    width: 270px;
+    height: 60px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    position: relative;
+    left: 250px;
+    font-weight: 700;
+}
+.top-clicker2 {
+    display: none;
+    width: 270px;
+    height: 60px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    position: relative;
+    font-weight: 700;
+    left: 250px;
+}
+.top-clicker3 {
+    display: none;
+    width: 270px;
+    height: 60px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    position: relative;
+    font-weight: 700;
+    left: 250px;
 }
