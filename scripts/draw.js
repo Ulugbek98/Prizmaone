@@ -16,10 +16,11 @@ var arc = d3.svg.arc()
   .outerRadius(function (d) {
     return (radius - innerRadius) * (d.data.score / 10.0) + innerRadius;
   });
-
+  
 var outlineArc = d3.svg.arc()
   .innerRadius(innerRadius)
-  .outerRadius(radius);
+  .outerRadius(radius)
+
 
 var svg = d3.select("body").append("svg")
   .attr("width", width)
@@ -67,12 +68,12 @@ d3.csv('data/prizma-data.csv', function (error, data) {
 
 
   // calculate the weighted mean score
-/*   var score =
-    data.reduce(function (a, b) {
-      console.log('a:' + a + ', b.score: ' + b.score + ', b.weight: ' + b.weight);
-      return a + (b.score * b.weight);
-    }, 0) /
-    data.reduce(function (a, b) {
-      return a + b.weight;
-    }, 0); */
+  /*   var score =
+      data.reduce(function (a, b) {
+        console.log('a:' + a + ', b.score: ' + b.score + ', b.weight: ' + b.weight);
+        return a + (b.score * b.weight);
+      }, 0) /
+      data.reduce(function (a, b) {
+        return a + b.weight;
+      }, 0); */
 });
