@@ -276,7 +276,7 @@ svg {
     font-weight: 600;
     color: aliceblue;
     position: absolute;
-    top: 850px;
+    top: 820px;
     left: 41%;
 }
 
@@ -285,9 +285,8 @@ svg {
     font-weight: 600;
     color: aliceblue;
     position: absolute;
-    top: 950px;
+    top: 920px;
     left: 700px;
-    margin-bottom: 100px;
 }
 
 .courses {
@@ -397,7 +396,7 @@ svg {
     margin-top: 60px;
     border: none;
     position: relative;
-    display: block !important;
+    left: 100px;
 }
 
 .button-ease {
@@ -407,7 +406,7 @@ svg {
     border: none;
     color: #fff;
     position: relative;
-    left: 250px;
+    left: 400px;
 }
 
 .fa-chevron-up {
@@ -429,8 +428,9 @@ svg {
 
 
 
-.mar-top-30 {
+.mtb-30 {
     margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 .top-clicker1 {
@@ -441,7 +441,7 @@ svg {
     border: none;
     color: #fff;
     position: relative;
-    left: 250px;
+    left: 400px;
     font-weight: 700;
 }
 .top-clicker2 {
@@ -453,7 +453,8 @@ svg {
     color: #fff;
     position: relative;
     font-weight: 700;
-    left: 250px;
+    left: 400px;
+
 }
 .top-clicker3 {
     display: none;
@@ -464,5 +465,5 @@ svg {
     color: #fff;
     position: relative;
     font-weight: 700;
-    left: 250px;
+    left: 400px;
 }

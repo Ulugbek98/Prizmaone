@@ -60,13 +60,13 @@
     <!-- chart -->
 
     <!-- body -->
-    <div class="container" style="width: 500px; background:transparent; height: 800px;">
+    <div class="container" style="width: 500px; background:transparent; height: 700px;">
         <h1 class="title2">Семья</h1>
         <h1 class="title3">Текущая оценка: 4</h1>
         <h1 class="title4">Доступные марафоны:</h1>
     </div>
 
-    <div class="container mar-top-30">
+    <div class="container mtb-30">
         <div class="row">
             <div class="col-md-12">
                 <div class="courses">
@@ -135,14 +135,15 @@
         </div>
     </div>
 
-    <div class="container mar-top-30">
+    <div class="container mtb-30">
         <div class="row">
             <div class="col-md-12">
                 <div class="courses">
                     <div class="row">
                         <div class="col-md-2">
                             <div class="photo-container">
-                                <img class="course-tutor" src="./images/Depositphotos_21186817_m-2015-730x497.png" alt="">
+                                <img class="course-tutor" src="./images/Depositphotos_21186817_m-2015-730x497.png"
+                                    alt="">
                                 <div class="btn-course">
                                     <img src="./images/startup.png" alt="rocket"> <span> Старт курса: 10 ноября</span>
                                 </div>
@@ -204,7 +205,7 @@
         </div>
     </div>
 
-    <div class="container mar-top-30">
+    <div class="container mtb-30">
         <div class="row">
             <div class="col-md-12">
                 <div class="courses">
@@ -267,7 +268,6 @@
                                 </button>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -298,7 +298,13 @@
 
 </body>
 <script type="text/javascript">
-
+    $(document).ready(function () {
+        // executes when HTML-Document is loaded and DOM is ready
+        $(".more2").hide();
+        $(".more3").hide();
+        $(".top-clicker2").show();
+        $(".top-clicker3").show();
+    });
 
     $(".clicker1").click(function () {
         $(".more1").hide(8000);
