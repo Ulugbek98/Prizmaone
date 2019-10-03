@@ -103,9 +103,9 @@ svg {
 }
 
 .solidArc:hover {
-    opacity: 0.6;
+   opacity:0.5;
+    cursor: pointer;
 }
-
 .solidArc {
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
