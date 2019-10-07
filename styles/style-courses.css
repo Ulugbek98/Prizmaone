@@ -103,9 +103,10 @@ svg {
 }
 
 .solidArc:hover {
-   opacity:0.5;
+    opacity: 0.5;
     cursor: pointer;
 }
+
 .solidArc {
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
@@ -444,6 +445,7 @@ svg {
     left: 400px;
     font-weight: 700;
 }
+
 .top-clicker2 {
     display: none;
     width: 270px;
@@ -456,6 +458,7 @@ svg {
     left: 400px;
 
 }
+
 .top-clicker3 {
     display: none;
     width: 270px;
@@ -466,4 +469,72 @@ svg {
     position: relative;
     font-weight: 700;
     left: 400px;
+}
+
+.button-modal-clear {
+    background: linear-gradient(90deg, #da3312, #f57d41);
+    height: 60px;
+    width: 370px;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-left: 35px;
+    border: none;
+}
+
+.modal-content {
+    border-radius: 20px !important;
+    background: linear-gradient(150deg, #0f184f, #122bb8) !important;
+    color: #fff;
+
+}
+
+.modal-header {
+    border: none !important;
+    margin-left:70px;
+    margin-top:20px;
+}
+.modal-header h3 {
+    color: #fff;
+    font-size: 28px !important;
+    font-weight: 700!important;
+}
+
+.modal-footer {
+    border: none !important;
+}
+
+#mod-name {
+    width: 430px;
+    height: 55px;
+    font-size: 15px;
+    margin-left:20px;
+    border-radius:10px;
+    font-weight: 700;
+    
+}
+
+#mod-surname {
+    width: 430px;
+    height: 55px;
+    font-size: 15px;
+    margin-left:20px;
+    border-radius:10px;
+    font-weight: 700;
+}
+
+#mod-mail {
+    width: 430px;
+    height: 55px;
+    font-size: 15px;
+    margin-left:20px;
+    border-radius:10px;
+    font-weight: 700;
+}
+.close span{
+    color: #fff!important;
+    font-size: 30px;
+    font-weight: 400;
 }

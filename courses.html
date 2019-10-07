@@ -122,7 +122,9 @@
                                 </div>
                             </div>
                             <div class="course-buttons">
-                                <button type="submit" class="button-clear">Записаться на Марафон </button>
+                                <button type="submit" class="button-clear" data-toggle="modal"
+                                    data-target="#exampleModal" data-whatever="@getbootstrap">Записаться на Марафон
+                                </button>
                                 <button type="submit" class="button-more clicker1">Подробнее
                                     <i class="fas fa-chevron-up"></i>
                                 </button>
@@ -192,7 +194,9 @@
                                 </div>
                             </div>
                             <div class="course-buttons">
-                                <button type="submit" class="button-clear">Записаться на Марафон </button>
+                                <button type="submit" class="button-clear" data-toggle="modal"
+                                    data-target="#exampleModal" data-whatever="@getbootstrap">Записаться на Марафон
+                                </button>
                                 <button type="submit" class="button-more clicker2">Подробнее
                                     <i class="fas fa-chevron-up"></i>
                                 </button>
@@ -262,10 +266,13 @@
                                 </div>
                             </div>
                             <div class="course-buttons">
-                                <button type="submit" class="button-clear">Записаться на Марафон </button>
+                                <button type="submit" class="button-clear" data-toggle="modal"
+                                    data-target="#exampleModal" data-whatever="@getbootstrap">Записаться на Марафон
+                                </button>
                                 <button type="submit" class="button-more clicker3">Подробнее
                                     <i class="fas fa-chevron-up"></i>
                                 </button>
+
                             </div>
                         </div>
                     </div>
@@ -274,7 +281,49 @@
         </div>
     </div>
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Записаться на Марафон</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="mod-name" placeholder="Имя">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="mod-surname" placeholder="Фамилия">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="mod-mail" placeholder="E-mail">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="mod-mail" placeholder="ID: 123456" disabled>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="mod-mail" placeholder="Семейный Марафон" disabled>
+                        </div>
 
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button type="submit" class="button-modal-clear">Записаться на Марафон
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
