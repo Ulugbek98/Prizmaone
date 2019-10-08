@@ -140,3 +140,70 @@ h1 {
 .mar-top-390 {
     margin-top: 390px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px start ++++++++++++++++++++++++++++++++++++++++ */
+
+@media (max-width: 1280px) {
+    body {
+        overflow: hidden;
+    }
+
+    .img-row {
+        height: 200px;
+    }
+
+    .logo-container {
+        height: 150px;
+    }
+
+    .navbar1 {
+        position: relative;
+        left: -200px;
+    }
+
+    .intro-logo {
+        width: 250px;
+        height: auto;
+        position: absolute;
+        margin: 20px;
+        left: 170px;
+        top: 30px;
+    }
+
+    .mar-top-390 {
+        margin-top: 250px;
+    }
+
+    .mar-top-390 .row .col-md-12 h1 {
+        font-size: 30px;
+    }
+
+    .mar-top-390 .row .col-md-12 p {
+        font-size: 20px;
+    }
+
+    .button-clear {
+        height: 55px;
+        width: 280px;
+    }
+
+    .button-clear a {
+        top: 12px;
+        left: -80px;
+    }
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px ++++++++++++++++++++++++++++++++++++++++ */
