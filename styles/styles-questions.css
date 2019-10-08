@@ -344,15 +344,20 @@ input[type=range]::-moz-range-progress {
         width: 300px;
         height: 55px;
     }
+    .button-orange a{
+        top: 15px;
+    }
 
     .button-clear a {
-        left: -80px;
-        font-size: 14px;
-        top: 15px;
+            font-size: 14px;
+        top: 12px;
     }
 
     .fa-arrow-right {
         right: 10%;
+    }
+    .fa-arrow-left {
+        left: 10%;
     }
 
     .carousel-caption h2 {
