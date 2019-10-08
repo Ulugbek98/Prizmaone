@@ -263,3 +263,113 @@ input[type=range]::-moz-range-progress {
 .button-orange:hover {
     box-shadow: 0px 5px 10px rgb(204, 61, 18);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px start ++++++++++++++++++++++++++++++++++++++++ */
+
+@media (max-width: 1280px) {
+    body {
+        overflow: hidden;
+    }
+
+    .img-row {
+        height: 200px;
+    }
+
+    .logo-container {
+        height: 150px;
+    }
+
+    .navbar1 {
+        position: relative;
+        left: -200px;
+    }
+
+    .intro-logo {
+        width: 250px;
+        height: auto;
+        position: absolute;
+        margin: 20px;
+        left: 170px;
+        top: 30px;
+    }
+
+    .mar-top-390 {
+        margin-top: 250px;
+    }
+
+    .mar-top-390 .row .col-md-12 h1 {
+        font-size: 30px;
+    }
+
+    .mar-top-390 .row .col-md-12 p {
+        font-size: 20px;
+    }
+
+    svg {
+        left: 20%;
+        top: 150px;
+        position: absolute;
+    }
+
+    .mar-top-60 {
+        margin-top: 0;
+    }
+
+    .textarea {
+        font-size: 16px;
+    }
+
+    .mar-top-150 {
+        margin-top: 50px;
+    }
+
+    .button-clear {
+        width: 300px;
+        height: 55px;
+    }
+
+    .button-orange {
+        width: 300px;
+        height: 55px;
+    }
+
+    .button-clear a {
+        left: -80px;
+        font-size: 14px;
+        top: 15px;
+    }
+
+    .fa-arrow-right {
+        right: 10%;
+    }
+
+    .carousel-caption h2 {
+        font-size: 26px;
+    }
+    .num-question{
+        width: 30px;
+        height: 30px;
+        border-radius: 8px;
+        line-height: 30px;
+    }
+    .mar-top-30{
+        font-size: 15px;
+    }
+    .mar-top-100{
+        margin-top: 80px;
+    }
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px ++++++++++++++++++++++++++++++++++++++++ */
