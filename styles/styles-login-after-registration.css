@@ -159,3 +159,112 @@ body {
 .txt-center {
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px start ++++++++++++++++++++++++++++++++++++++++ */
+
+@media (max-width: 1280px) {
+    body {
+        background: linear-gradient(90deg, #0f184f, #0f1c69);
+        background-image: url(../images/intro-without-logo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+    .img-row {
+        height: 100px;
+    }
+
+    .intro-logo {
+        width: 280px;
+        position: absolute;
+        left: 37%;
+        top: 10%;
+        padding-top: 50px;
+    }
+
+    .logo-container {
+        height: 180px;
+    }
+
+    .form-cancel {
+        width: 450px;
+        padding: 20px 0px 40px 0px;
+        margin: 0 auto;
+        border-radius: 25px;
+    }
+
+    .form-group a {
+        font-size: 16px;
+        margin-left: 70px;
+    }
+
+    .white-span {
+        left: 80px;
+    }
+
+    .form-group input {
+        width: 350px;
+        height: 50px;
+    }
+
+    .form-group input::placeholder {
+        font-size: 14px;
+    }
+
+    #check {
+        font-size: 14px;
+    }
+
+    .button-clear {
+        margin-left: 35px;
+        height: 50px;
+        width: 350px;
+        font-size: 14px;
+    }
+
+    .mar-top-30 {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    #second-a {
+        z-index: 8;
+        cursor: pointer;
+    }
+
+    #cheker {
+        padding-left: 80px;
+    }
+    .after-txt{
+        margin-top: 70px;
+        font-size: 18px;
+    }
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px ++++++++++++++++++++++++++++++++++++++++ */
