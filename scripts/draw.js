@@ -1,14 +1,14 @@
 
-var mq = window.matchMedia('(max-width: 1200px)');
-
+var mq = window.matchMedia('(max-width: 1280px)');
+console.log(mq);
   if (mq.matches) {
       // ширина окна меньше, чем 570px
-      var hgh = 200;
+      var hgh = 300;
       alert('Меньше')
   } else {
       // ширина окна больше, чем 570px
       alert('Больше')
-      var hgh = 200;
+      var hgh =450;
 
   }
 

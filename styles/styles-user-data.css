@@ -476,35 +476,78 @@ svg {
   }
 
   .tips-right {
-    left: 515px;
-    top: 190px;
+    left: 615px;
+    top: 145px;
+    font-size: 13px;
   }
 
   .tips-left {
-    left: 260px;
-    top: 170px;
+    left: 420px;
+    top: 165px;
+    font-size: 13px;
+    font-weight: 700;
   }
+
+
+
+
+  #family {
+    left: 125px;
+  }
+
+  #health {
+    top: 45px;
+    left: 60px;
+  }
+
+  #life {
+    top: 100px;
+    left: 70px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #personal {
+    top: 120px;
+    left: 108px;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  #career {
+    top: 40px;
+    left: 20px;
+  }
+
+  #money {
+    top: 100px;
+    left: 10px;
+  }
+
+  #relations {
+    top: 180px;
+    left: -50px;
+  }
+
+  #relax {
+    top: 240px;
+    left: -160px;
+  }
+
+
+
+
 
   .scores {
-    left: 481px;
-    top: 160px;
+    left: 609px;
+    top: 155px;
   }
 
-  .right-text {
-    width: 450px;
-    left: 100px;
-
-  }
-
-  .right-text>h1 {
-    font-size: 32px;
-    font-weight: 700;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-bottom: 30px;
-  }
-
-  .mar-top-60 {
-    margin-top: 0;
+  .scores span {
+    font-size: 13px;
+    height: 14px;
   }
 
   .textarea {
@@ -529,14 +572,20 @@ svg {
   .fa-arrow-right {
     right: 10%;
   }
-.jony{
-  display: inline-block;
-	position: relative;
-	width: 100%;
-	padding-bottom: 100%; 
-	vertical-align: middle; 
-	overflow: hidden; 
-}
+
+  .jony {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+  }
+
+  .text-path {
+    top: 520px;
+    left: 120px;
+  }
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px ++++++++++++++++++++++++++++++++++++++++ */
