@@ -316,8 +316,8 @@ svg {
     0px 5px 1px #02114f,
     0px 6px 1px #02114f,
     0px 7px 1px #02114f;
-    text-align: center;
-    line-height: 68px;
+  text-align: center;
+  line-height: 68px;
 }
 
 #choose_sector {
@@ -340,9 +340,9 @@ svg {
 .orange-span {
   width: 12px;
   background: #fff;
-  border:15px solid #02114f;
+  border: 15px solid #02114f;
   position: relative;
-  left:125px;
+  left: 125px;
   top: -15px;
   z-index: 0;
   border-bottom: 25px solid #e34a18;
@@ -403,7 +403,140 @@ svg {
     0px 5px 1px #02114f,
     0px 6px 1px #02114f,
     0px 7px 1px #02114f;
-    text-align: center;
-    line-height: 68px;
+  text-align: center;
+  line-height: 68px;
 }
+
 /* body */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px start ++++++++++++++++++++++++++++++++++++++++ */
+
+@media (max-width: 1280px) {
+
+  .title1 {
+    font-size: 24px;
+    top: 80px;
+  }
+
+  .img-row {
+    height: 200px;
+  }
+
+  .logo-container {
+    height: 150px;
+  }
+
+  .navbar1 {
+    position: relative;
+    left: -200px;
+  }
+
+  .intro-logo {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    margin: 20px;
+    left: 170px;
+    top: 30px;
+  }
+
+  .mar-top-390 {
+    margin-top: 250px;
+  }
+
+  .mar-top-390 .row .col-md-12 h1 {
+    font-size: 30px;
+  }
+
+  .mar-top-390 .row .col-md-12 p {
+    font-size: 20px;
+  }
+
+  svg {
+    left: 30%;
+    top: 150px;
+    position: absolute;
+  }
+
+  .tips-right {
+    left: 515px;
+    top: 190px;
+  }
+
+  .tips-left {
+    left: 260px;
+    top: 170px;
+  }
+
+  .scores {
+    left: 481px;
+    top: 160px;
+  }
+
+  .right-text {
+    width: 450px;
+    left: 100px;
+
+  }
+
+  .right-text>h1 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 30px;
+  }
+
+  .mar-top-60 {
+    margin-top: 0;
+  }
+
+  .textarea {
+    font-size: 16px;
+  }
+
+  .mar-top-150 {
+    margin-top: 50px;
+  }
+
+  .button-clear {
+    width: 300px;
+    height: 55px;
+  }
+
+  .button-clear a {
+    left: -80px;
+    font-size: 14px;
+    top: 15px;
+  }
+
+  .fa-arrow-right {
+    right: 10%;
+  }
+.jony{
+  display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%; 
+	vertical-align: middle; 
+	overflow: hidden; 
+}
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px ++++++++++++++++++++++++++++++++++++++++ */

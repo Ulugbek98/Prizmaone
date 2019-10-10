@@ -1,8 +1,21 @@
+
+var mq = window.matchMedia('(max-width: 1200px)');
+
+  if (mq.matches) {
+      // ширина окна меньше, чем 570px
+      var hgh = 200;
+      alert('Меньше')
+  } else {
+      // ширина окна больше, чем 570px
+      alert('Больше')
+      var hgh = 200;
+
+  }
+
 var width = 450,
-  height = 450,
+  height = hgh,
   radius = Math.min(width, height) / 2,
   innerRadius = 0.1 * radius;
-
 
 var pie = d3.layout.pie()
   .sort(null)
