@@ -583,8 +583,11 @@ svg {
   }
 
   .text-path {
-    top: 520px;
+    top: 460px;
     left: 120px;
+  }
+  #choose_sector h3{
+    font-size: 25px;
   }
 }
 
