@@ -1,16 +1,15 @@
-
 var mq = window.matchMedia('(max-width: 1280px)');
 console.log(mq);
-  if (mq.matches) {
-      // ширина окна меньше, чем 1280px
-      var hgh = 300;
+if (mq.matches) {
+  // ширина окна меньше, чем 1280px
+  var hgh = 300;
 
-  } else {
-      // ширина окна больше, чем 1280px
-  
-      var hgh =450;
+} else {
+  // ширина окна больше, чем 1280px
 
-  }
+  var hgh = 450;
+
+}
 
 var width = 450,
   height = hgh,
@@ -29,7 +28,7 @@ var arc = d3.svg.arc()
   .outerRadius(function (d) {
     return (radius - innerRadius) * (d.data.score / 10.0) + innerRadius;
   });
-  
+
 var outlineArc = d3.svg.arc()
   .innerRadius(innerRadius)
   .outerRadius(radius)
@@ -43,7 +42,7 @@ var svg = d3.select("body").append("svg")
 
 
 
-d3.csv('./data/prizma-data.csv', function (error, data) {
+d3.csv('../data/prizma-data.csv', function (error, data) {
 
   data.forEach(function (d) {
     d.id = d.id;
@@ -64,9 +63,13 @@ d3.csv('./data/prizma-data.csv', function (error, data) {
       return d.data.color;
     })
     .attr("class", "solidArc")
-    .attr("stroke", "gray")
-
+    .attr("stroke", "#cecece")
     .attr("d", arc)
+    .on("click", function () {
+      d3.select(this)
+        .style("opacity", "0")
+    })
+
 
   /* big-circle */
   var outerPath = svg.selectAll(".outlineArc")
@@ -74,19 +77,9 @@ d3.csv('./data/prizma-data.csv', function (error, data) {
     .enter().append("path")
     .attr("fill", "none")
     .attr("stroke", "#fff")
-    .style('stroke-width', '2px')
-    .style('fill', '2px')
+    .style('stroke-width', '3px')
+    .style('fill', '0px')
     .attr("class", "outlineArc")
     .attr("d", outlineArc);
 
-
-  // calculate the weighted mean score
-  /*   var score =
-      data.reduce(function (a, b) {
-        console.log('a:' + a + ', b.score: ' + b.score + ', b.weight: ' + b.weight);
-        return a + (b.score * b.weight);
-      }, 0) /
-      data.reduce(function (a, b) {
-        return a + b.weight;
-      }, 0); */
 });

@@ -772,6 +772,7 @@ svg {
 
     .button-more {
         left: 10px;
+        width: 40%;
     }
 
     .top-clicker1 {
@@ -855,7 +856,7 @@ svg {
 
     .title4 {
         font-size: 29px;
-        top: 750px;
+        top: 720px;
         left: 32%;
     }
 
