@@ -584,11 +584,95 @@ svg {
 
   .text-path {
     top: 460px;
-    left: 120px;
+    left: 160px;
   }
-  #choose_sector h3{
+
+  #choose_sector h3 {
     font-size: 25px;
+
+  }
+
+  #good_sectors {
+    width: 210px;
+    height: 160px;
+  }
+
+  #gradient-good {
+    width: 210px;
+    height: 80px;
+  }
+
+  #gradient-good h6 {
+    top: -30px;
+    font-size: 18px;
+  }
+
+  #bad_sectors {
+    width: 210px;
+    height: 160px;
+  }
+
+  #gradient-bad {
+    width: 210px;
+    height: 80px;
+  }
+
+  #gradient-bad h6 {
+    top: -60px;
+    font-size: 18px;
+  }
+
+  #bad-btn {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    top: -65px;
+
+  }
+
+  .fa-thumbs-down {
+    font-size: 30px;
+  }
+
+  #good-btn {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    top: -40px;
+  }
+
+  .fa-thumbs-up {
+    font-size: 30px;
+  }
+
+  #choose_sector h3 {
+    font-size: 20px;
+    line-height: 25px;
   }
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px ++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px start ++++++++++++++++++++++++++++++++++++++++ */
+
+@media (max-width: 768px) {
+
+
+  .title1 {
+    font-size: 24px;
+    top: 500px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+}
