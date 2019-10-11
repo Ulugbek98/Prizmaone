@@ -538,3 +538,194 @@ svg {
     font-size: 30px;
     font-weight: 400;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px start ++++++++++++++++++++++++++++++++++++++++ */
+
+@media (max-width: 1280px) {
+
+    .title1 {
+      font-size: 24px;
+      top: 80px;
+    }
+  
+    .img-row {
+      height: 200px;
+    }
+  
+    .logo-container {
+      height: 150px;
+    }
+  
+    .navbar1 {
+      position: relative;
+      left: -200px;
+    }
+  
+    .intro-logo {
+      width: 250px;
+      height: auto;
+      position: absolute;
+      margin: 20px;
+      left: 170px;
+      top: 30px;
+    }
+  
+    .mar-top-390 {
+      margin-top: 250px;
+    }
+  
+    .mar-top-390 .row .col-md-12 h1 {
+      font-size: 30px;
+    }
+  
+    .mar-top-390 .row .col-md-12 p {
+      font-size: 20px;
+    }
+  
+    svg {
+      left: 30%;
+      top: 150px;
+      position: absolute;
+    }
+  
+    .tips-right {
+      left: 615px;
+      top: 0px;
+      font-size: 13px;
+    }
+  
+    .tips-left {
+      left: 420px;
+      top: 20px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+  
+  
+  
+  
+    #family {
+      left: 125px;
+    }
+  
+    #health {
+      top: 45px;
+      left: 60px;
+    }
+  
+    #life {
+      top: 100px;
+      left: 70px;
+      display: inline-block;
+      text-align: center;
+    }
+  
+    #personal {
+      top: 120px;
+      left: 108px;
+      display: inline-block;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 700;
+    }
+  
+    #career {
+      top: 40px;
+      left: 20px;
+    }
+  
+    #money {
+      top: 100px;
+      left: 10px;
+    }
+  
+    #relations {
+      top: 180px;
+      left: -50px;
+    }
+  
+    #relax {
+      top: 240px;
+      left: -160px;
+    }
+  
+  
+  
+  
+  
+    .scores {
+      left: 609px;
+      top: 155px;
+    }
+  
+    .scores span {
+      font-size: 13px;
+      height: 14px;
+    }
+  
+    .textarea {
+      font-size: 16px;
+    }
+  
+    .mar-top-150 {
+      margin-top: 50px;
+    }
+  
+    .button-clear {
+      width: 300px;
+      height: 55px;
+    }
+  
+    .button-clear a {
+      left: -80px;
+      font-size: 14px;
+      top: 15px;
+    }
+  
+    .fa-arrow-right {
+      right: 10%;
+    }
+  
+    .jony {
+      display: inline-block;
+      position: relative;
+      width: 100%;
+      padding-bottom: 100%;
+      vertical-align: middle;
+      overflow: hidden;
+    }
+  
+    .text-path {
+      top: 460px;
+      left: 120px;
+    }
+    #choose_sector h3{
+      font-size: 25px;
+    }
+  }
+  
+  /* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px ++++++++++++++++++++++++++++++++++++++++ */
