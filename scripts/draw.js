@@ -4,10 +4,10 @@ console.log(mq);
   if (mq.matches) {
       // ширина окна меньше, чем 1280px
       var hgh = 300;
-      alert('Меньше')
+
   } else {
       // ширина окна больше, чем 1280px
-      alert('Больше')
+  
       var hgh =450;
 
   }
