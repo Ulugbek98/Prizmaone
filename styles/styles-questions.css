@@ -344,18 +344,20 @@ input[type=range]::-moz-range-progress {
         width: 300px;
         height: 55px;
     }
-    .button-orange a{
+
+    .button-orange a {
         top: 15px;
     }
 
     .button-clear a {
-            font-size: 14px;
+        font-size: 14px;
         top: 12px;
     }
 
     .fa-arrow-right {
         right: 10%;
     }
+
     .fa-arrow-left {
         left: 10%;
     }
@@ -363,17 +365,181 @@ input[type=range]::-moz-range-progress {
     .carousel-caption h2 {
         font-size: 26px;
     }
-    .num-question{
+
+    .num-question {
         width: 30px;
         height: 30px;
         border-radius: 8px;
         line-height: 30px;
     }
-    .mar-top-30{
+
+    .mar-top-30 {
         font-size: 15px;
     }
-    .mar-top-100{
+
+    .mar-top-100 {
         margin-top: 80px;
+    }
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px ++++++++++++++++++++++++++++++++++++++++ */
+
+
+/* ++++++++++++++++++++++++++++++++++++++++ Media For 768px start ++++++++++++++++++++++++++++++++++++++++ */
+
+@media (max-width: 768px) {
+    body {
+        background-image: url("../images/intro-full.png");
+        background-size: cover;
+        background-color: #02114f;
+        overflow: hidden !important;
+    }
+
+    .intro-logo {
+        width: 210px;
+        top: 22px;
+    }
+
+    .navbar1 {
+        top: -25px
+    }
+
+    .user-name {
+        width: 120px;
+        height: 30px;
+        top: 55px;
+    }
+
+    .user-name span {
+        font-size: 11px;
+        top: -15px;
+    }
+
+    .white-span {
+        left: 119px;
+        border: 8px solid #02114f;
+        border-left: 16px solid #273271;
+        top: 6px;
+    }
+
+    .user-photo {
+        bottom: -92px;
+        height: 40px;
+        width: 40px;
+        right: -172px;
+    }
+
+    .fa-user-tie {
+        font-size: 25px;
+        top: 7px;
+        left: 4px;
+    }
+
+
+
+    .mar-top-390 {
+        margin-top: 250px;
+    }
+
+    .mar-top-390 .row .col-md-12 h1 {
+        font-size: 30px;
+    }
+
+    .mar-top-390 .row .col-md-12 p {
+        font-size: 20px;
+    }
+
+    svg {
+        left: 20%;
+        top: 150px;
+        position: absolute;
+    }
+
+    .mar-top-60 {
+        margin-top: 0;
+    }
+
+    .textarea {
+        font-size: 16px;
+    }
+
+    .mar-top-150 {
+        margin-top: 50px;
+    }
+
+    input[type="range"]::-moz-range-progress {
+        height: 5px;
+    }
+
+    .wrapper {
+        width: 485px;
+    }
+
+    .dashes {
+        width: 475px;
+    }
+
+    .values {
+        width: 480px;
+    }
+
+    .buttons {
+        position: relative;
+        top: 30px;
+    }
+
+    .button-clear {
+        width: 250px;
+        height: 45px;
+    }
+
+    .button-orange {
+        width: 250px;
+        height: 45px;
+    }
+
+    .button-orange a {
+        top: 10px;
+        font-size: 12px;
+        left: -15px;
+
+    }
+
+    .button-clear a {
+        font-size: 12px;
+        top: 8px;
+        left: -20px;
+    }
+
+    .fa-arrow-right {
+        right: 10%;
+        font-size: 12px;
+
+    }
+
+    .fa-arrow-left {
+        left: 10%;
+        font-size: 12px;
+
+    }
+
+    .carousel-caption h2 {
+        font-size: 20px;
+    }
+
+    .num-question {
+        width: 30px;
+        height: 30px;
+        border-radius: 8px;
+        line-height: 30px;
+    }
+
+    .mar-top-30 {
+        font-size: 14px;
+    }
+
+    .mar-top-100 {
+        margin-top: 140px;
     }
 }
 
