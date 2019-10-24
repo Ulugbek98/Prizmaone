@@ -237,3 +237,92 @@ body {
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px ++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++ Media For 768px start ++++++++++++++++++++++++++++++++++++++++ */
+
+@media (max-width: 768px) {
+    body {
+        background: linear-gradient(90deg, #0f184f, #0f1c69);
+        background-image: url(../images/intro-without-logo768.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+    .img-row {
+        height: 100px;
+    }
+
+    .intro-logo {
+        width: 250px;
+        position: absolute;
+        left: 32%;
+        top: 10%;
+        padding-top: 50px;
+    }
+
+    .logo-container {
+        height: 180px;
+    }
+
+    .form-cancel {
+        width: 450px;
+        padding: 20px 0px 40px 0px;
+        margin: 0 auto;
+        border-radius: 25px;
+    }
+
+    .form-group a {
+        font-size: 16px;
+        margin-left: 70px;
+    }
+
+    .white-span {
+        left: 80px;
+    }
+
+    .form-group input {
+        width: 350px;
+        height: 50px;
+    }
+
+    .form-group input::placeholder {
+        font-size: 14px;
+    }
+
+    #check {
+        font-size: 14px;
+    }
+
+    .button-clear {
+        margin-left: 35px;
+        height: 50px;
+        width: 350px;
+        font-size: 14px;
+    }
+
+    .mar-top-30 {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    #second-a {
+        z-index: 8;
+        cursor: pointer;
+    }
+
+    #cheker {
+        padding-left: 80px;
+    }
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px ++++++++++++++++++++++++++++++++++++++++ */

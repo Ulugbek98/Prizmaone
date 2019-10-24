@@ -439,3 +439,162 @@ svg {
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px ++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("../images/intro-full.png");
+    background-size: cover;
+    background-color: #02114f;
+    overflow: hidden !important;
+  }
+
+  .intro-logo {
+    width: 210px;
+    top: 22px;
+  }
+
+  .navbar1 {
+    top: -25px
+  }
+
+  .user-name {
+    width: 120px;
+    height: 30px;
+    top: 55px;
+  }
+
+  .user-name span {
+    font-size: 11px;
+    top: -15px;
+  }
+
+  .white-span {
+    left: 119px;
+    border: 8px solid #02114f;
+    border-left: 16px solid #273271;
+    top: 6px;
+  }
+
+  .user-photo {
+    bottom: -92px;
+    height: 40px;
+    width: 40px;
+    right: -172px;
+  }
+
+  .fa-user-tie {
+    font-size: 25px;
+    top: 7px;
+    left: 4px;
+  }
+
+  svg {
+    left: -5%;
+    top: 230px;
+  }
+
+
+  .tips-right {
+    left: 205px;
+    top: 260px;
+    font-size: 11px;
+  }
+
+  #money {
+    top: 55px;
+    left: 5px;
+  }
+
+  #relax {
+    left: -145px;
+    top: 170px;
+  }
+
+  #relations {
+    top: 118px;
+    left: -55px;
+  }
+
+  .tips-left {
+    left: 5px;
+    top: 242px;
+    font-size: 11px;
+    font-weight: 700;
+  }
+
+  #health {
+    top: 40px;
+    left: 80px;
+  }
+
+  #life {
+    top: 82px;
+    left: 80px;
+  }
+
+  #personal {
+    font-weight: 700;
+    font-size: 10.7px;
+    top: 105px;
+    left: 110px;
+  }
+
+  .scores {
+    left: 187.2px;
+    top: 232px;
+  }
+
+  .scores span {
+    font-size: 10.5px;
+    height: 11.5px;
+  }
+
+  .right-text {
+    left: -50px;
+    top: 50px;
+  }
+
+  .right-text>h1 {
+    font-size: 24px;
+  }
+
+  .textarea {
+    font-size: 14px;
+  }
+
+  .button-clear {
+    left: 50px;
+    font-size: 14px;
+    top: -45px;
+    width: 200px;
+    height: 45px;
+  }
+
+  .button-clear a {
+    font-size: 12px;
+    left: -120px;
+    top: 10px;
+  }
+
+  .fa-arrow-right {
+    top:15px;
+    font-size: 14px;
+  }
+}

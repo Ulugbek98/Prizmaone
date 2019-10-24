@@ -207,3 +207,78 @@ h1 {
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px ++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    body {
+        background-image: url("../images/intro-full.png");
+        background-size: cover;
+        background-color: #02114f;
+        overflow: hidden !important;
+    }
+
+    .intro-logo {
+        width: 210px;
+        top: 22px;
+    }
+
+    .navbar1 {
+        top: -25px
+    }
+
+    .user-name {
+        width: 120px;
+        height: 30px;
+        top: 55px;
+    }
+
+    .user-name span {
+        font-size: 11px;
+        top: -15px;
+    }
+
+    .white-span {
+        left: 119px;
+        border: 8px solid #02114f;
+        border-left: 16px solid #273271;
+        top: 6px;
+    }
+
+    .user-photo {
+        bottom: -92px;
+        height: 40px;
+        width: 40px;
+        right: -172px;
+    }
+
+    .fa-user-tie {
+        font-size: 25px;
+        top: 7px;
+        left: 4px;
+    }
+    .button-clear  {
+        height: 50px;
+        width: 270px;
+    }
+    .button-clear a {
+font-size: 14px;
+top: 10px;
+left:-90px;
+    }
+    .fa-arrow-right{
+        font-size: 14px;
+    }
+}

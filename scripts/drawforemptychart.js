@@ -1,5 +1,22 @@
+var viewportwidth = window.innerWidth;
+if (viewportwidth == 1280) {
+  // ширина окна равна, 1280px
+  var hgh = 300;
+  alert("as");
+} else if (viewportwidth >= 1280){
+  var hgh = 450;
+
+}
+
+else if (viewportwidth == 768) {
+  // ширина окна равна, 768px
+  var hgh = 250;
+} else {
+  var hgh = 150;
+}
+
 var width = 450,
-  height = 450,
+  height = hgh,
   radius = Math.min(width, height) / 2,
   innerRadius = 0.1 * radius;
 

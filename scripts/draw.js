@@ -15,8 +15,6 @@ else if (viewportwidth == 768) {
   var hgh = 150;
 }
 
-
-console.log(viewportwidth)
 var width = 450,
   height = hgh,
   radius = Math.min(width, height) / 2,
