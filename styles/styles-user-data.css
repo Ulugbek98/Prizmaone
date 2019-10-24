@@ -433,6 +433,7 @@ svg {
   .title1 {
     font-size: 24px;
     top: 80px;
+    left: 33%;
   }
 
   .img-row {
@@ -673,7 +674,7 @@ svg {
   }
 
   .navbar1 {
-    top: -35px
+    top: -25px
   }
 
   .user-name {
@@ -698,7 +699,7 @@ svg {
     bottom: -92px;
     height: 40px;
     width: 40px;
-    right: -180px;
+    right: -172px;
   }
 
   .fa-user-tie {
@@ -782,7 +783,7 @@ svg {
 
   #personal {
     font-weight: 500;
-    font-size: 10.5px;
+    font-size: 10.7px;
     top: 105px;
     left: 105px;
   }
@@ -793,7 +794,7 @@ svg {
   }
 
   .scores span {
-    font-size: 11.5px;
+    font-size: 10.5px;
     height: 11.5px;
 
   }
