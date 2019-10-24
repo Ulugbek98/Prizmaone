@@ -1,16 +1,17 @@
-var mq = window.matchMedia('(max-width: 1280px)');
-console.log(mq);
-if (mq.matches) {
-  // ширина окна меньше, чем 1280px
+var viewportwidth = window.innerWidth;
+if (viewportwidth == 1280) {
+  // ширина окна равна, 1280px
   var hgh = 300;
-
+  alert("as");
+} else if (viewportwidth == 768) {
+  // ширина окна равна, 768px
+  var hgh = 250;
 } else {
-  // ширина окна больше, чем 1280px
-
-  var hgh = 450;
-
+  var hgh = 150;
 }
 
+
+console.log(viewportwidth)
 var width = 450,
   height = hgh,
   radius = Math.min(width, height) / 2,
@@ -58,17 +59,18 @@ d3.csv('./data/prizma-data.csv', function (error, data) {
 
   var path = svg.selectAll(".solidArc")
     .data(pie(data))
-    .enter().append("path")
+    .enter().append("path").on("click", function () {
+      d3.select(this)
+        .style("fill", "green")
+      console.log(this)
+    })
     .attr("fill", function (d) {
       return d.data.color;
     })
     .attr("class", "solidArc")
     .attr("stroke", "#cecece")
     .attr("d", arc)
-    .on("click", function () {
-      d3.select(this)
-        .style("opacity", "0")
-    })
+
 
 
   /* big-circle */
