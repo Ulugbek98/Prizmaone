@@ -177,7 +177,7 @@ body {
         background-image: url(../images/intro-without-logo.png);
         background-size: cover;
         background-repeat: no-repeat;
-/*         overflow: hidden;  */
+        /*         overflow: hidden;  */
     }
 
     .img-row {
@@ -188,7 +188,7 @@ body {
         width: 280px;
         position: absolute;
         left: 37%;
-       top:-15%;
+        top: -15%;
         padding-top: 50px;
     }
 
@@ -201,7 +201,7 @@ body {
         padding: 20px 0px 40px 0px;
         margin: 0 auto;
         border-radius: 25px;
-        top:30px;
+        top: 30px;
         position: relative;
         margin-bottom: 20px;
     }
@@ -235,7 +235,7 @@ body {
         font-size: 14px;
         margin-bottom: 0;
     }
-    
+
 
     .mar-top-30 {
         margin-top: 20px;
@@ -253,3 +253,25 @@ body {
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px ++++++++++++++++++++++++++++++++++++++++ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .intro-logo {
+        width: 280px;
+        position: absolute;
+        left: 30%;
+        top: -35%;
+        padding-top: 50px;
+    }
+}

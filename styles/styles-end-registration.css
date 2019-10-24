@@ -55,3 +55,26 @@ h1 {
 .txt-center {
     text-align: center;
 }
+@media (max-width: 768px) {
+    body {
+        background: linear-gradient(90deg, #0f184f, #0f1c69);
+        background-image: url(../images/intro-without-logo768.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+    .intro-logo {
+        width: 280px;
+        position: absolute;
+        left: 30%;
+ 
+        padding-top: 50px;
+    }
+    h1{
+        font-size: 25px!important;
+    }
+    .after-txt{
+        font-size: 18px;
+    }
+}
