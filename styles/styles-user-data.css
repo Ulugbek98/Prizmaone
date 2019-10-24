@@ -289,6 +289,7 @@ svg {
   border-top-right-radius: 12px;
   width: 270px;
   height: 100px;
+  padding: 25px;
 }
 
 #gradient-good h6 {
@@ -665,7 +666,7 @@ svg {
     background-image: url("../images/intro-full.png");
     background-size: cover;
     background-color: #02114f;
-    overflow: hidden!important;
+    overflow: hidden !important;
   }
 
   .intro-logo {
@@ -687,7 +688,7 @@ svg {
     font-size: 11px;
     top: -15px;
   }
- 
+
   .white-span {
     left: 119px;
     border: 8px solid #02114f;
@@ -891,4 +892,179 @@ svg {
     line-height: 20px;
   }
 
+}
+
+
+
+
+@media (max-width: 320px) {
+  body {
+    background-image: url("../images/intro-full.png");
+    background-size: cover;
+    background-color: #02114f;
+    overflow: scroll !important;
+  }
+
+  .intro-logo {
+    width: 150px;
+    top: 22px;
+    left: 190px;
+  }
+
+  .navbar1 {
+    top: -25px
+  }
+
+  .user-photo {
+    bottom: -80px;
+    height: 35px;
+    width: 35px;
+    right: -175px;
+  }
+
+  .fa-user-tie {
+    font-size: 20px;
+  }
+
+  .user-name {
+    width: 120px;
+    height: 30px;
+    top: 100px;
+    right: -185px;
+  }
+
+  .user-name span {
+    font-size: 11px;
+    top: -18px;
+  }
+
+  .white-span {
+    left: 83px;
+    border: 6px solid #02114f;
+    border-left-color: rgb(2, 17, 79);
+    border-left-style: solid;
+    border-left-width: 8px;
+    border-bottom: 12px solid #273271;
+    top: -18px;
+  }
+
+  .title1 {
+    font-size: 17px;
+    text-align: center;
+    top: 107px;
+    left: 9%;
+  }
+
+  svg {
+    left: -20%;
+    top: 150px;
+    width: 351px;
+  }
+
+  .tips-left {
+    left: -15px;
+    top: 159px;
+  }
+
+  .tips-right {
+    left: 160px;
+    top: 136px;
+    width: 200px;
+  }
+
+  #relation {
+    top: 106px;
+    left: 25px;
+  }
+
+  #relax {
+    top: 215px;
+    left: -135px;
+  }
+
+  .scores {
+    left: 161.2px;
+    top: 153px;
+  }
+
+  .text-path {
+
+    top: 400px;
+    left: -148px;
+
+  }
+
+  #good_sectors {
+    width: 100px;
+    height: 100px;
+    margin-left: 125px;
+    top: 140px;
+    left: 70px;
+    position: relative;
+  }
+
+  #gradient-good {
+    width: 100px;
+    height: 50px;
+  }
+
+  #good-btn {
+    width: 30px;
+    height: 30px;
+    line-height: 12px;
+    top: -53px;
+    left: 12px;
+  }
+
+  #gradient-good h6 {
+    margin-top: -17px;
+    font-size: 10px;
+  }
+
+  #good_sectors p {
+    font-size: 10px;
+  }
+
+  .fa-thumbs-up {
+    font-size: 18px;
+  }
+
+  #bad_sectors {
+    width: 100px;
+    height: 100px;
+    margin-left: 0px;
+    top: 140px;
+    left: 0px;
+    position: relative;
+  }
+
+  #gradient-bad {
+    width: 100px;
+    height: 50px;
+  }
+
+  #bad-btn {
+    width: 30px;
+    height: 30px;
+    line-height: 12px;
+    top: -57px;
+  }
+
+  #gradient-bad h6 {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+
+  #bad_sectors p {
+    font-size: 10px;
+  }
+
+  .fa-thumbs-down {
+    font-size: 18px;
+  }
+
+  #choose_sector h3 {
+    font-size: 11px;
+    line-height: 17px;
+  }
 }

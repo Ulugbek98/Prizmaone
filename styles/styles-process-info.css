@@ -594,7 +594,143 @@ svg {
   }
 
   .fa-arrow-right {
-    top:15px;
+    top: 15px;
     font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 320px) {
+  body {
+    background-image: url("../images/intro-full.png");
+    background-size: cover;
+    background-color: #02114f;
+    overflow: scroll !important;
+  }
+
+  .intro-logo {
+    width: 150px;
+    top: 22px;
+    left: 190px;
+  }
+
+  .navbar1 {
+    top: -25px
+  }
+
+  .user-photo {
+    bottom: -80px;
+    height: 35px;
+    width: 35px;
+    right: -175px;
+  }
+
+  .fa-user-tie {
+    font-size: 20px;
+  }
+
+  .user-name {
+    width: 120px;
+    height: 30px;
+    top: 100px;
+    right: -185px;
+  }
+
+  .user-name span {
+    font-size: 11px;
+    top: -18px;
+  }
+
+  .white-span {
+    left: 83px;
+    border: 6px solid #02114f;
+    border-left-color: rgb(2, 17, 79);
+    border-left-style: solid;
+    border-left-width: 8px;
+    border-bottom: 12px solid #273271;
+    top: -18px;
+  }
+
+  .button-clear {
+    height: 40px;
+    width: 160px;
+    top: 10px;
+    left: 0;
+  }
+
+  .button-clear a {
+    height: 40px;
+    width: 160px;
+    font-size: 11px;
+    top: 8px;
+    left: -10px;
+  }
+
+  .fa-arrow-right {
+    font-size: 12px;
+    top: 14px;
+  }
+
+  svg {
+    left: -20%;
+    top: 130px;
+    width: 351px;
+  }
+
+
+  .tips-left {
+    left: -22px;
+    top: 140px;
+  }
+
+  .tips-right {
+    left: 180px;
+    top: 155px;
+    width: 200px;
+  }
+
+  #relation {
+    top: 106px;
+    left: 25px;
+  }
+#relax{
+  top: 170px;
+  left: -155px;
+}
+  .scores {
+    left: 161.2px;
+    top: 133px;
+  }
+
+
+
+
+  .right-text>h1 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .textarea {
+    background: transparent;
+    color: aliceblue;
+    font-weight: 600;
+    width: 290px;
+    font-size: 12px;
+    height: 165px;
+  }
+
+  .right-text {
+    left: 0px;
+    text-align: center;
+    top: 300px;
   }
 }

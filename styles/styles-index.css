@@ -59,3 +59,22 @@
         top: 60%;
     }
 }
+
+@media (max-width:320px) {
+    body {
+        background: linear-gradient(90deg, #0f184f, #0f1c69);
+        background-image: url(../images/intro-without-logo768.png);
+        overflow: hidden;
+    }
+
+    .img-row {
+        height: 550px;
+    }
+
+    .intro-logo {
+        width: 200px;
+        position: absolute;
+        left: 19%;
+        top: 50%;
+    }
+}

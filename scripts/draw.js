@@ -3,17 +3,17 @@ if (viewportwidth == 1280) {
   // ширина окна равна, 1280px
   var hgh = 300;
   alert("as");
-} else if (viewportwidth >= 1280){
+} else if (viewportwidth >= 1280) {
   var hgh = 450;
 
-}
-
-else if (viewportwidth == 768) {
+} else if (viewportwidth == 768) {
   // ширина окна равна, 768px
   var hgh = 250;
 } else {
-  var hgh = 150;
+  var hgh = 250;
 }
+console.log(hgh);
+console.log(viewportwidth);
 
 var width = 450,
   height = hgh,

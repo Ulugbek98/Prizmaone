@@ -3,17 +3,17 @@ if (viewportwidth == 1280) {
   // ширина окна равна, 1280px
   var hgh = 300;
   alert("as");
-} else if (viewportwidth >= 1280){
+} else if (viewportwidth >= 1280) {
   var hgh = 450;
 
-}
-
-else if (viewportwidth == 768) {
+} else if (viewportwidth == 768) {
   // ширина окна равна, 768px
   var hgh = 250;
 } else {
-  var hgh = 150;
+  var hgh = 250;
 }
+console.log(viewportwidth);
+console.log(hgh);
 
 var width = 450,
   height = hgh,
@@ -84,12 +84,12 @@ d3.csv('../data/empty-data.csv', function (error, data) {
 
 
   // calculate the weighted mean score
-/*   var score =
-    data.reduce(function (a, b) {
-      console.log('a:' + a + ', b.score: ' + b.score + ', b.weight: ' + b.weight);
-      return a + (b.score * b.weight);
-    }, 0) /
-    data.reduce(function (a, b) {
-      return a + b.weight;
-    }, 0); */
+  /*   var score =
+      data.reduce(function (a, b) {
+        console.log('a:' + a + ', b.score: ' + b.score + ', b.weight: ' + b.weight);
+        return a + (b.score * b.weight);
+      }, 0) /
+      data.reduce(function (a, b) {
+        return a + b.weight;
+      }, 0); */
 });

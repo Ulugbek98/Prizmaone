@@ -137,6 +137,12 @@ body {
     text-decoration: none;
 }
 
+.lab {
+    color: #fff;
+    font-weight: 700;
+    margin-left: 70px;
+}
+
 /*+++++++++++++++++++++++++++++++++++++++++ FORM-end +++++++++++++++++++++++++++++++++++++++++*/
 
 
@@ -250,6 +256,12 @@ body {
     #cheker {
         padding-left: 80px;
     }
+
+    .lab {
+        color: #fff;
+        font-weight: 700;
+        margin-left: 70px;
+    }
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px ++++++++++++++++++++++++++++++++++++++++ */
@@ -273,5 +285,87 @@ body {
         left: 30%;
         top: -35%;
         padding-top: 50px;
+    }
+}
+
+
+
+
+/* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px ++++++++++++++++++++++++++++++++++++++++ */
+
+@media (max-width:320px) {
+    body {
+        background: linear-gradient(90deg, #0f184f, #0f1c69);
+        background-image: url(../images/intro-without-logo768.png);
+        overflow: hidden;
+    }
+
+    .img-row {
+        height: 60px;
+    }
+
+    .intro-logo {
+        width: 200px;
+        position: absolute;
+        left: 20%;
+        top: -60%;
+    }
+
+    .form-cancel {
+        width: 290px;
+    }
+
+    .form-group input {
+        width: 250px;
+        height: 35px;
+    }
+
+    .form-group a {
+        font-size: 14px;
+        margin-left: 35px;
+    }
+
+    .lab {
+        color: #fff;
+        font-weight: 700;
+        margin-left: 40px;
+        font-size: 12px
+    }
+
+    .white-span {
+        left: 120px;
+        border: 7px solid #0f1956;
+        border-bottom: 15px solid rgb(255, 255, 255);
+    }
+#check{
+    font-size: 8px;
+}
+    #cheker {
+        padding-left: 54px;
+        font-size: 12px;
+    }
+
+    .button-clear {
+        margin-left: 30px;
+        height: 35px;
+        width: 200px;
+        font-size: 10px;
+    }
+
+    .fa-arrow-right {
+        position: absolute;
+        right: 5%;
+        bottom: 28%;
+        font-size: 14px;
+    }
+
+    .mar-top-30 {
+        font-size: 12px;
+    }
+
+    #first-a {
+        margin-left: 30px;
+        color:
+            #db3e11;
     }
 }

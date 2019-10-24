@@ -78,3 +78,29 @@ h1 {
         font-size: 18px;
     }
 }
+
+
+@media (max-width:320px) {
+    body {
+        background: linear-gradient(90deg, #0f184f, #0f1c69);
+        background-image: url(../images/intro-without-logo768.png);
+        overflow: hidden;
+    }
+
+    .img-row {
+        height: 250px;
+    }
+
+    .intro-logo {
+        width: 200px;
+        position: absolute;
+        left: 19%;
+        top: 50%;
+    }
+    h1{
+        font-size: 18px!important;
+    }
+    p{
+        font-size: 12px!important;
+    }
+}
