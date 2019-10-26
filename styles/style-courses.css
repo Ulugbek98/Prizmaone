@@ -810,149 +810,150 @@ svg {
 /* ++++++++++++++++++++++++++++++++++++++++ Media For 1280px start ++++++++++++++++++++++++++++++++++++++++ */
 
 @media (max-width: 768px) {
-  .body{
-      overflow: hidden!important;
-  }
+    .body {
+        overflow: hidden !important;
+    }
+
     .intro-logo {
         width: 210px;
         top: 22px;
-      }
-    
-      .navbar1 {
+    }
+
+    .navbar1 {
         top: -25px
-      }
-    
-      .user-name {
+    }
+
+    .user-name {
         width: 120px;
         height: 30px;
         top: 55px;
-      }
-    
-      .user-name span {
+    }
+
+    .user-name span {
         font-size: 10px;
         top: -15px;
-      }
-    
-      .white-span {
+    }
+
+    .white-span {
         left: 119px;
         border: 8px solid #02114f;
         border-left: 16px solid #273271;
         top: 6px;
-      }
-    
-      .user-photo {
+    }
+
+    .user-photo {
         bottom: -92px;
         height: 40px;
         width: 40px;
         right: -172px;
-      }
-    
-      .fa-user-tie {
+    }
+
+    .fa-user-tie {
         font-size: 25px;
         top: 7px;
         left: 4px;
-      }
-    
-      .title1 {
+    }
+
+    .title1 {
         font-size: 20px;
         font-weight: 600;
         color: aliceblue;
         position: absolute;
         top: 90px;
         left: 30%;
-      }
-    
-      .title2 {
+    }
+
+    .title2 {
         font-size: 28px;
         top: 450px;
         left: 45%;
-      }
-    
-      .title3 {
+    }
+
+    .title3 {
         font-size: 28px;
         top: 500px;
         left: 35%;
-      }
-    
-      .title4 {
+    }
+
+    .title4 {
         font-size: 29px;
         top: 600px;
         left: 30%;
-      }
-    
-      .container-titles {
+    }
+
+    .container-titles {
         height: 500px;
-      }
-    
-      svg {
+    }
+
+    svg {
         left: 21%;
         top: 150px;
-      }
-    
-      .tips-right {
+    }
+
+    .tips-right {
         left: 385px;
         top: -15px;
         font-size: 11px;
         width: 250px;
         font-weight: 700;
-      }
-    
-      #money {
+    }
+
+    #money {
         top: 97px;
         left: 11px;
-      }
-    
-      #relax {
+    }
+
+    #relax {
         left: -135px;
         top: 210px;
-      }
-    
-      #relations {
+    }
+
+    #relations {
         top: 155px;
         left: -45px;
-      }
-    
-      .tips-left {
+    }
+
+    .tips-left {
         left: 210px;
         top: 8px;
         font-size: 11px;
         font-weight: 700;
-      }
-    
-      #health {
+    }
+
+    #health {
         left: 70px;
-      }
-    
-      #life {
+    }
+
+    #life {
         top: 85px;
         left: 75px;
-      }
-    
-      #personal {
+    }
+
+    #personal {
         font-weight: 600;
         font-size: 10.7px;
         top: 105px;
         left: 105px;
-      }
-    
-      .scores {
+    }
+
+    .scores {
         left: 387px;
         top: 154px;
-      }
-    
-      .scores span {
+    }
+
+    .scores span {
         font-size: 10.5px;
         height: 11.5px;
-    
-      }
-    
-    
-    
-    
+
+    }
+
+
+
+
 
     .courses {
         width: 570px;
-        top:-100px;
+        top: -100px;
     }
 
     .course-info {
@@ -989,15 +990,272 @@ svg {
 
     .text-preview {
         width: 450px;
-        display:none;
+        display: none;
     }
 
     .video-preview {
         display: block;
         position: relative;
-        left:-200px;
+        left: -200px;
     }
-    .course-buttons{
+
+    .course-buttons {
         width: 500px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 320px) {
+    body {
+        background-image: url("../images/intro-full.png");
+        background-size: cover;
+        background-color: #02114f;
+        overflow: scroll !important;
+    }
+
+    .intro-logo {
+        width: 150px;
+        top: 22px;
+        left: 190px;
+    }
+
+    .navbar1 {
+        top: -25px
+    }
+
+    .user-photo {
+        bottom: -80px;
+        height: 35px;
+        width: 35px;
+        right: -175px;
+    }
+
+    .fa-user-tie {
+        font-size: 20px;
+    }
+
+    .user-name {
+        width: 120px;
+        height: 30px;
+        top: 100px;
+        right: -185px;
+    }
+
+    .user-name span {
+        font-size: 11px;
+        top: -18px;
+    }
+
+    .white-span {
+        left: 83px;
+        border: 6px solid #02114f;
+        border-left-color: rgb(2, 17, 79);
+        border-left-style: solid;
+        border-left-width: 8px;
+        border-bottom: 12px solid #273271;
+        top: -18px;
+    }
+
+    .title1 {
+        font-size: 17px;
+        text-align: center;
+        top: 120px;
+        left: 9%;
+    }
+
+    svg {
+        left: -20%;
+        top: 170px;
+        width: 351px;
+    }
+
+    .tips-left {
+        left: -15px;
+        top: 28px;
+    }
+
+    .tips-right {
+        left: 160px;
+        top: 10px;
+        width: 200px;
+    }
+
+    #relation {
+        top: 106px;
+        left: 25px;
+    }
+
+    #relax {
+        top: 215px;
+        left: -135px;
+    }
+
+    .scores {
+        left: 161.2px;
+        top: 173px;
+    }
+
+    .title2 {
+        font-size: 18px;
+        top: 450px;
+        left: 42%;
+    }
+
+    .title3 {
+        font-size: 18px;
+        top: 480px;
+        left: 27%;
+    }
+
+    .title4 {
+        font-size: 19px;
+        top: 520px;
+        left: 20%;
+    }
+
+    .photo-container {
+        position: absolute;
+        left: 90px;
+        width: 150px;
+        height: 150px;
+        top: -200px;
+    }
+
+    .course-tutor {
+        width: 120px;
+        height: 120px;
+
+    }
+
+    .mtb-30 {
+        margin-top: 80px;
+    }
+
+    .courses {
+        margin-left: 0;
+        width: 310px;
+        top: -50px;
+        padding: 15px;
+    }
+
+    .course-info {
+        width: 280px;
+        font-size: 12px;
+    }
+
+    .btn-course {
+        height: 30px;
+        width: 160px;
+        line-height: 25px;
+        left: -18px;
+        position: relative;
+    }
+
+    .btn-course img {
+        height: 20px;
+        width: 20px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    .btn-course span {
+        font-size: 11px;
+    }
+
+    .course-name {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .video-preview iframe {
+        width: 260px;
+        height: auto;
+    }
+
+    .video-preview {
+        top: -50px;
+        left: -15px;
+    }
+
+    .duration {
+        font-size: 11px;
+    }
+
+    .button-clear {
+        font-size: 10px;
+        width: 150px;
+        height: 40px;
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+.button-more{
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 10px;
+}
+    .course-buttons {
+
+        width: 300px;
+
+    }
+    .top-clicker2 {
+
+        top: 15px;
+        left: 0px;
+    
+    }
+    .container-titles {
+
+        height: 320px;
+    
+    }
+    .top-clicker3 {
+
+        top: 15px;
+        left: 0px;
+    
+    }
+    .mtb-30:first-child {
+
+        margin-top: 83px;
+    
+    }
+    .mtb-30:nth-child(even) {
+
+        margin-top: 253px;
+    
+    }
+    .mtb-30:nth-child(odd) {
+
+        margin-top: 253px;
+    
     }
 }
